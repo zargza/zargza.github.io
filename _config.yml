@@ -1,0 +1,6 @@
+title: Zargza Instalaciones
+description: Este es un sitio web creado con Jekyll.
+url: https://miusuario.github.io
+theme: minima
+plugins:
+  - jekyll-feed
