@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #222, #333); /* Gradiente de fondo oscuro */
+    color: #ddd; /* Texto claro */
+}
+
+header, footer {
+    background-color: #111; /* Fondo oscuro para encabezado y pie de página */
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Efecto de transición al pasar el ratón */
+}
+
+nav a:hover {
+    color: #007bff; /* Color de enlace al pasar el ratón */
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #444; /* Borde sutil */
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente */
+}
+
+/* Titles */
+h1, h2 {
+    color: #007bff; /* Color azul eléctrico */
+    border-bottom: 2px solid #007bff; /* Línea inferior azul */
+    padding-bottom: 5px;
+}
+
+/* Specific elements for electric/metal look */
+.highlight {
+    color: #f00; /* Rojo para resaltar */
+    font-weight: bold;
+}
+
+.metal-effect {
+    background: linear-gradient(to right, #aaa, #777, #aaa); /* Gradiente metálico */
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.electric-glow {
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff; /* Sombra azul brillante */
+}
+
+/* Responsive Design (example) */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+}
